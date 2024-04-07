@@ -1,0 +1,16 @@
+.game {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px 5%;
+    padding-top: 50px;
+    background: #efefef;
+}
+
+.si-content {
+    flex-basis: 24%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    /* height: 100vh; */
+}

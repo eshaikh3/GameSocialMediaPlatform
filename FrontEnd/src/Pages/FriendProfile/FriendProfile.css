@@ -1,0 +1,49 @@
+/* .add-fd-btn .del-fd-btn{
+    margin-right: 0px;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+.add-fd-btn {
+    background-color: rgb(59, 145, 116);
+} */
+
+.fd-btn {
+    background-color: rgb(41, 175, 130) !important;
+    border: none !important;
+    font-weight: bold !important;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.unfd-btn {
+    background-color: rgb(175, 41, 41) !important;
+    border: none !important;
+    font-weight: bold !important;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+
+.chat-btn{
+    /* position: absolute; */
+    padding: 2px 5px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.chat-btn span{
+    font-size: 14px;
+    color: blue;
+}

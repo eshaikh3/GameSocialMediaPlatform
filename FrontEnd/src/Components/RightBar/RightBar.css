@@ -1,0 +1,66 @@
+.right-content {
+    flex-basis: 24%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    /* padding: 20px; */
+    border-radius: 4px;
+    color: #626262;
+}
+
+.friends {
+    width: 100%;
+    padding: 20px;
+    background: rgb(230, 230, 230);
+}
+
+/* .friends h4{
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(60, 119, 20);
+    color: #fff;
+} */
+
+.ads {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    background: rgb(230, 230, 230);
+}
+
+.ads img {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.frd-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.frd-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 18px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.frd-list p {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

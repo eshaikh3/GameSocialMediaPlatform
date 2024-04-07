@@ -1,0 +1,11 @@
+#login-btn {
+    margin-right: 0px;
+    background-color: rgb(59, 145, 116);
+    color: white;
+    border: 1px solid rgb(41, 99, 79);
+    margin-top: 15px;
+}
+
+#regist-box {
+    margin-top: 15px;
+}

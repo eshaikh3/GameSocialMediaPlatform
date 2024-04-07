@@ -1,0 +1,138 @@
+/* Navigation Bar */
+
+/* Left side of the navbar */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgb(155, 155, 155);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.logo {
+    flex: 2.5;
+    /* padding-left: 50px; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    max-width: 225px !important;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+/* middle of the navbar */
+
+.nav-links {
+    flex: 7;
+    display: flex;
+    align-items: center;
+    padding: 10px 1%;
+    border: 2px solid black;
+    border-radius: 50px;
+    max-width: 850px !important;
+    margin: 10px auto;
+    justify-content: space-between;
+    font-weight: bold;
+    background: #efefef;
+    height: 100%;
+}
+
+.nav-links img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.nav-links img:hover {
+    opacity: 0.8;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 50 50px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.nav-links ul li {
+    text-align: center; /* Horizontally centers text within line-wrapped elements */
+    align-items: center; /* vertical */
+    display: inline-block;
+    padding: 10px 0px 10px 30px;
+}
+
+.navList-link {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+/* Right side of the navbar */
+
+.nav-right {
+    flex: 2.5;
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.nav-right ul li {
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.logout-btn {
+    background-color: steelblue;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #efefef;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+}
+
+.sm-icon {
+    margin: 0 15px 0 0px;
+}
+
+.search-box {
+    background-color: #efefef;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+
+/* @media only screen and (min-width: 1500px) {
+    .logo{
+        justify-content: flex-end;
+    }
+    
+} */

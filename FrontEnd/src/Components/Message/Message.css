@@ -1,0 +1,50 @@
+.msg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.msg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.msg-top {
+    display: flex;
+}
+
+.msg-top div {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(128, 194, 128);
+    max-width: 300px;
+    margin-bottom: 0px;
+}
+
+.msg-bottom {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.msg.login_user {
+    align-items: flex-end;
+}
+
+.msg.login_user .msg-top div {
+    background-color: skyblue;
+    color: black;
+}
+
+.msg-from{
+    color: rgb(0, 72, 139);
+    font-size: small;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.msg-top div p{
+    margin-bottom: 0px;
+}

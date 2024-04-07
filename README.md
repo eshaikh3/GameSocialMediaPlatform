@@ -58,4 +58,3 @@ This project was created by the following contributors (GitHub/):
 
 - Special thanks to all contributors and supporters of this project.
 - Acknowledgment of external libraries or frameworks used.
-"""
